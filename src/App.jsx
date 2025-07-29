@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/home' element={<PostList/>}></Route>
+        <Route path='/' element={<PostList/>}></Route>
         <Route path='/login' element={<Login/>}></Route>
         <Route path='/register' element={<Register/>}></Route>
         <Route path='/create' element={<CreatePost/>}></Route>
